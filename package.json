@@ -1,0 +1,34 @@
+{
+  "name": "twow-cli",
+  "version": "0.0.1",
+  "description": "A Ten Words Of Wisdom (TWOW) program to create contests and calculate votes",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Wilker-a/twow-cli.git"
+  },
+  "keywords": [
+    "twow",
+    "gui",
+    "cli",
+    "ten words of wisdom",
+    "carykh",
+    "calculator"
+  ],
+  "author": "Wilker",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Wilker-a/twow-cli/issues"
+  },
+  "homepage": "https://github.com/Wilker-a/twow-cli#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  }
+}
